@@ -42,6 +42,7 @@ const UsersPage = () => {
   const onClickViewHandle = (user) => {
     dispatch(setModalOpen(true));
     setSelectedUser(user);
+    setUserModal(false);
     setViewModal(true);
   };
 
